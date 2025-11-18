@@ -7,6 +7,7 @@ Figure 1: Illustration of the proposed TMDC. TMDC includes two training stages. 
 
 ### Datasets:
 **Please move the CMU-MOSI, CMU-MOSEI and IEMOCAP datasets into directory ./gcnet_datasets/.**
+
 These dataset can be downloaded according to [GCNet](https://github.com/zeroQiaoba/GCNet) or [MoMKE](https://github.com/wxxv/MoMKE/tree/main).
 
 ### Prerequisites:
