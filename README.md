@@ -6,8 +6,8 @@ The code for TMDC: A Two-Stage Modality Denoising and Complementation Framework 
 Figure 1: Illustration of the proposed TMDC. TMDC includes two training stages. In the first stage, TMDC learns from complete modality information using two denoising modules. The modality-specific denoising module applies separate networks to each modality to remove noise while preserving unique modality information. Simultaneously, the modality-common denoising module employs a shared network to filter noise across multiple modalities and extract common information. In the second stage, the learned shared information is used to supplement missing modalities.
 
 ### Datasets:
-**Please move the following datasets into directory ./datasets/.**
-The dataset can be downloaded according to [GCNet](https://github.com/zeroQiaoba/GCNet) or [MoMKE](https://github.com/wxxv/MoMKE/tree/main).
+**Please move the CMU-MOSI, CMU-MOSEI and IEMOCAP datasets into directory ./gcnet_datasets/.**
+These dataset can be downloaded according to [GCNet](https://github.com/zeroQiaoba/GCNet) or [MoMKE](https://github.com/wxxv/MoMKE/tree/main).
 
 ### Prerequisites:
 ```
@@ -19,6 +19,19 @@ The dataset can be downloaded according to [GCNet](https://github.com/zeroQiaoba
 ```
 **Note that the torch version can be changed to your cuda version, but please keep the transformers==4.30.2 as some functions will change in later versions**
 
+### Run TMDC
+For CMU-MOSI, please run the following code in ./TMDC:
+```
+bash run_TMDC_cmumosi.sh
+```
+For CMU-MOSEI, please run the following code./TMDC:
+```
+bash run_TMDC_cmumosei.sh
+```
+For IEMOCAP, please run the following code./TMDC:
+```
+bash run_TMDC_iemocap4.sh
+```
 
 
 ### Citation:
@@ -31,3 +44,5 @@ Please cite our paper if you find our work useful for your research:
   year={2025}
 }
 ```
+### Acknowledgement
+Thanks to  [MIB](https://github.com/TmacMai/Multimodal-Information-Bottleneck),  [MoMKE](https://github.com/wxxv/MoMKE/tree/main), and [GCNet](https://github.com/zeroQiaoba/GCNet) for their great help to our codes and research. 
