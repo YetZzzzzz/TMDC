@@ -21,15 +21,15 @@ These dataset can be downloaded according to [GCNet](https://github.com/zeroQiao
 **Note that the torch version can be changed to your cuda version, but please keep the transformers==4.30.2 as some functions will change in later versions**
 
 ### Run TMDC
-For CMU-MOSI, please run the following code in ./TMDC:
+For CMU-MOSI, please run the following code:
 ```
 bash run_TMDC_cmumosi.sh
 ```
-For CMU-MOSEI, please run the following code in ./TMDC:
+For CMU-MOSEI, please run the following code:
 ```
 bash run_TMDC_cmumosei.sh
 ```
-For IEMOCAP, please run the following code in ./TMDC:
+For IEMOCAP, please run the following code:
 ```
 bash run_TMDC_iemocap4.sh
 ```
