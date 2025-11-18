@@ -25,11 +25,11 @@ For CMU-MOSI, please run the following code in ./TMDC:
 ```
 bash run_TMDC_cmumosi.sh
 ```
-For CMU-MOSEI, please run the following code./TMDC:
+For CMU-MOSEI, please run the following code in ./TMDC:
 ```
 bash run_TMDC_cmumosei.sh
 ```
-For IEMOCAP, please run the following code./TMDC:
+For IEMOCAP, please run the following code in ./TMDC:
 ```
 bash run_TMDC_iemocap4.sh
 ```
